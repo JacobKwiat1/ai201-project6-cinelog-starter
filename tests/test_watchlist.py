@@ -4,7 +4,8 @@ from models import User, Film, WatchlistEntry
 from services.watchlist_service import (
     add_to_watchlist,
     FilmNotFoundError,
-    AlreadyInWatchlistError
+    AlreadyInWatchlistError,
+    FilmNotFoundError
 )
 @pytest.fixture
 def app():
